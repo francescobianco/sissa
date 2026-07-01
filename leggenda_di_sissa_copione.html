@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>La leggenda di Sissa - Copione per narratore</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 1.6cm;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #1d1d1d;
+      font-family: "Georgia", serif;
+      line-height: 1.58;
+    }
+
+    .page {
+      min-height: 25.4cm;
+      box-sizing: border-box;
+      page-break-after: always;
+      padding: 0.1cm 0;
+    }
+
+    .cover {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      margin: 0 0 0.45cm 0;
+      color: #111111;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      font-size: 29pt;
+    }
+
+    h2 {
+      font-size: 20pt;
+      padding-bottom: 0.15cm;
+      border-bottom: 1px solid #d1d1d1;
+    }
+
+    p,
+    li {
+      font-size: 13.2pt;
+    }
+
+    p {
+      margin: 0 0 0.34cm 0;
+    }
+
+    ul {
+      margin: 0.2cm 0 0.2cm 0.6cm;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.18cm;
+    }
+
+    .subtitle {
+      font-size: 15pt;
+      margin-bottom: 0.45cm;
+    }
+
+    .meta {
+      font-size: 12.6pt;
+      margin-bottom: 0.2cm;
+    }
+
+    .illustration {
+      height: 8.3cm;
+      border: 1px solid #d7d7d7;
+      border-radius: 14px;
+      background: #ffffff;
+      margin: 0.15cm 0 0.55cm 0;
+      box-sizing: border-box;
+      padding: 0.4cm;
+      overflow: hidden;
+    }
+
+    .vignette {
+      width: 100%;
+      height: 100%;
+      border: 1px dashed #cfcfcf;
+      border-radius: 12px;
+      padding: 0.32cm;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 0.2cm;
+      background:
+        radial-gradient(circle at top left, #fafafa 0, #fafafa 18%, transparent 18.5%) top left / 1.4cm 1.4cm no-repeat,
+        radial-gradient(circle at top right, #fafafa 0, #fafafa 18%, transparent 18.5%) top right / 1.4cm 1.4cm no-repeat,
+        linear-gradient(180deg, #ffffff 0%, #fcfcfc 100%);
+    }
+
+    .vignette svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 10.8pt;
+      color: #5b5b5b;
+      letter-spacing: 0.02em;
+    }
+
+    .box {
+      border: 1px solid #d7d7d7;
+      border-radius: 10px;
+      background: #ffffff;
+      padding: 0.42cm 0.52cm;
+      margin-bottom: 0.42cm;
+    }
+
+    .label {
+      font-weight: 700;
+    }
+
+    .small {
+      font-size: 11.5pt;
+    }
+
+    .ink {
+      fill: #2a2a2a;
+      stroke: #2a2a2a;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .line {
+      fill: none;
+      stroke: #2a2a2a;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .soft {
+      fill: #efefef;
+      stroke: #c8c8c8;
+      stroke-width: 1.5;
+    }
+
+    .ground {
+      stroke: #9e9e9e;
+      stroke-width: 1.8;
+      stroke-dasharray: 5 5;
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <h1>La leggenda di Sissa</h1>
+    <p class="subtitle">Copione per il narratore con bambini in scena</p>
+    <p class="meta">Durata prevista: circa 15 minuti</p>
+    <p class="meta">I bambini non parlano: eseguono soltanto movimenti, pose e cambi di scena.</p>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <rect x="20" y="240" width="760" height="90" class="soft"/>
+          <path d="M60 250 L130 180 L200 250" class="line"/>
+          <path d="M200 250 L270 140 L340 250" class="line"/>
+          <path d="M340 250 L415 110 L490 250" class="line"/>
+          <path d="M520 250 L610 160 L700 250" class="line"/>
+          <rect x="95" y="150" width="40" height="90" class="ink"/>
+          <rect x="158" y="125" width="32" height="115" class="ink"/>
+          <rect x="250" y="85" width="42" height="155" class="ink"/>
+          <rect x="275" y="65" width="18" height="22" class="ink"/>
+          <path d="M415 90 C385 90 365 120 365 155 L365 240 L465 240 L465 155 C465 120 445 90 415 90 Z" class="line"/>
+          <circle cx="415" cy="68" r="18" class="ink"/>
+          <path d="M615 120 L645 120 L645 95 L665 95 L665 120 L695 120 L695 240 L615 240 Z" class="line"/>
+          <path d="M90 292 C180 278 265 285 355 292" class="ground"/>
+          <path d="M430 292 C520 280 620 286 710 292" class="ground"/>
+        </svg>
+        <div class="caption">Copertina con castello, scacchiera e Sissa in forma di fiaba teatrale</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Personaggi e cappelli</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <circle cx="90" cy="95" r="28" class="line"/><path d="M72 123 L108 123 L118 200 L62 200 Z" class="line"/>
+          <path d="M77 80 L90 58 L103 80" class="line"/>
+          <circle cx="210" cy="95" r="28" class="line"/><path d="M192 123 L228 123 L238 200 L182 200 Z" class="line"/>
+          <path d="M190 82 L210 52 L230 82" class="line"/><path d="M210 52 L210 38" class="line"/>
+          <circle cx="330" cy="95" r="28" class="line"/><path d="M312 123 L348 123 L358 200 L302 200 Z" class="line"/>
+          <path d="M315 68 Q330 38 345 68" class="line"/>
+          <circle cx="450" cy="95" r="28" class="line"/><path d="M432 123 L468 123 L478 200 L422 200 Z" class="line"/>
+          <path d="M432 58 L468 58 L468 78 L432 78 Z" class="line"/>
+          <circle cx="570" cy="95" r="28" class="line"/><path d="M552 123 L588 123 L598 200 L542 200 Z" class="line"/>
+          <path d="M552 64 C565 50 575 50 588 64 C580 74 570 84 570 84 C570 84 560 74 552 64 Z" class="line"/>
+          <circle cx="690" cy="95" r="28" class="line"/><path d="M672 123 L708 123 L718 200 L662 200 Z" class="line"/>
+          <circle cx="690" cy="66" r="18" class="line"/>
+          <path d="M60 250 L740 250" class="ground"/>
+        </svg>
+        <div class="caption">Tutti i cappelli sono pezzi degli scacchi: pedone, re, alfiere, torre, cavallo e regina solo nel finale</div>
+      </div>
+    </div>
+    <div class="box">
+      <ul>
+        <li><span class="label">Narratore:</span> racconta tutta la storia e guida il ritmo.</li>
+        <li><span class="label">Sissa:</span> bambina con cappello da pedone. Nel finale il cappello da pedone viene tolto e sostituito con quello da regina.</li>
+        <li><span class="label">Re:</span> cappello che richiama il pezzo del re degli scacchi.</li>
+        <li><span class="label">Consigliere 1:</span> cappello da alfiere.</li>
+        <li><span class="label">Consigliere 2:</span> cappello da alfiere.</li>
+        <li><span class="label">Guardiana del re:</span> cappello da torre.</li>
+        <li><span class="label">Messaggero:</span> cappello da cavallo.</li>
+        <li><span class="label">Popolo e pedine vive:</span> tutti con cappelli da pedone.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <p><span class="label">Nota importante:</span> tutti i cappelli devono rappresentare soltanto pezzi degli scacchi. Nessun cappello generico e nessuna corona fuori da questo linguaggio visivo.</p>
+      <p><span class="label">Materiali consigliati:</span> scacchiera a terra, cappelli di cartoncino bianco e nero, mantelli leggeri, sacchetto con chicchi di riso veri o simbolici.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 1 - Il regno senza gioia</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <rect x="40" y="245" width="720" height="70" class="soft"/>
+          <path d="M130 245 L130 120 L220 120 L220 245" class="line"/>
+          <path d="M120 120 L175 75 L230 120" class="line"/>
+          <path d="M400 105 L425 70 L450 105" class="line"/>
+          <path d="M387 105 L463 105 L463 240 L387 240 Z" class="line"/>
+          <circle cx="425" cy="135" r="18" class="line"/>
+          <path d="M410 155 L440 155 L448 228 L402 228 Z" class="line"/>
+          <circle cx="570" cy="160" r="16" class="line"/>
+          <path d="M558 176 L582 176 L588 230 L552 230 Z" class="line"/>
+          <circle cx="620" cy="166" r="14" class="line"/>
+          <path d="M610 180 L630 180 L636 228 L604 228 Z" class="line"/>
+          <circle cx="675" cy="170" r="14" class="line"/>
+          <path d="M665 184 L685 184 L691 228 L659 228 Z" class="line"/>
+          <path d="M80 296 C220 285 350 289 500 296" class="ground"/>
+        </svg>
+        <div class="caption">Il re e il popolo appaiono fermi e pensierosi nel palazzo</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> il Re sta al centro con il suo cappello da re. I due Consiglieri-alfiere e la Guardiana-torre gli restano accanto. Il popolo entra piano, con gesti lenti e visi abbassati.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Tanto tempo fa, in un regno lontano, viveva un re ricchissimo. Aveva sale splendide, stoffe preziose, scrigni colmi di tesori. Eppure non era felice. Guardava il suo popolo e vedeva disordine, stanchezza, litigi e paura. Nessuno sembrava capace di lavorare insieme davvero. Il re pensava spesso al futuro del suo regno e si domandava come insegnare a tutti il valore dell'armonia, dell'ascolto e della saggezza. Accanto a lui c'erano due consiglieri fidati e una guardiana fedele, ma nessuno trovava la risposta giusta. Nel palazzo sembrava mancare una luce nuova, una piccola idea capace di cambiare tutto.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 2 - Arriva Sissa</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <rect x="60" y="248" width="680" height="60" class="soft"/>
+          <path d="M140 130 L185 130 L185 105 L215 105 L215 130 L260 130 L260 240 L140 240 Z" class="line"/>
+          <circle cx="515" cy="145" r="20" class="line"/>
+          <path d="M500 165 L530 165 L538 236 L492 236 Z" class="line"/>
+          <circle cx="362" cy="160" r="16" class="line"/>
+          <path d="M350 176 L374 176 L382 235 L342 235 Z" class="line"/>
+          <circle cx="362" cy="132" r="14" class="line"/>
+          <path d="M338 150 C348 138 376 138 386 150" class="line"/>
+          <path d="M560 155 C595 150 630 140 665 120" class="line"/>
+          <path d="M120 292 C220 282 420 285 705 292" class="ground"/>
+        </svg>
+        <div class="caption">Sissa entra piccola ma sicura, con il cappello da pedone</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> il Messaggero con cappello da cavallo entra e indica l'ingresso. Sissa, bambina con cappello da pedone, avanza con calma fino al trono. Il Re la osserva con sorpresa.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Un giorno si presentò a palazzo una bambina di nome Sissa. Non aveva gioielli, non aveva servi, non aveva armi. Portava soltanto il suo sguardo attento e un semplice cappello da pedone. Sembrava piccola davanti alla grande corte, ma nei suoi occhi brillava un'intelligenza straordinaria. Il messaggero la accompagnò davanti al re. Tutti si chiesero cosa potesse offrire una bambina tanto semplice a un sovrano tanto potente. Ma Sissa si inchinò con rispetto e disse che aveva portato un dono capace di insegnare ordine, pazienza e collaborazione senza bisogno di grandi discorsi.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 3 - La scacchiera prende vita</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <rect x="145" y="85" width="510" height="210" class="soft"/>
+          <g class="line">
+            <path d="M145 85 H655"/>
+            <path d="M145 120 H655"/>
+            <path d="M145 155 H655"/>
+            <path d="M145 190 H655"/>
+            <path d="M145 225 H655"/>
+            <path d="M145 260 H655"/>
+            <path d="M145 295 H655"/>
+            <path d="M145 85 V295"/>
+            <path d="M218 85 V295"/>
+            <path d="M291 85 V295"/>
+            <path d="M364 85 V295"/>
+            <path d="M437 85 V295"/>
+            <path d="M510 85 V295"/>
+            <path d="M583 85 V295"/>
+            <path d="M655 85 V295"/>
+          </g>
+          <circle cx="220" cy="246" r="14" class="line"/>
+          <circle cx="293" cy="246" r="14" class="line"/>
+          <circle cx="366" cy="246" r="14" class="line"/>
+          <circle cx="439" cy="246" r="14" class="line"/>
+          <circle cx="512" cy="246" r="14" class="line"/>
+          <circle cx="585" cy="246" r="14" class="line"/>
+          <path d="M220 214 C232 196 244 196 256 214 L256 234 L220 234 Z" class="line"/>
+          <path d="M585 108 L605 108 L605 88 L618 88 L618 108 L638 108 L638 138 L585 138 Z" class="line"/>
+        </svg>
+        <div class="caption">Le caselle e i pezzi si trasformano in una scena viva e ordinata</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> Sissa indica la scacchiera. Entrano le pedine vive con cappelli da pedone. I due consiglieri-alfiere, la guardiana-torre, il messaggero-cavallo e il re si dispongono come se fossero pezzi di una grande partita.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Davanti al re venne mostrata una grande scacchiera, fatta di caselle chiare e scure. Sissa spiegò che ogni figura aveva un ruolo e un modo diverso di muoversi. C'era il re da proteggere. C'erano due alfieri saggi accanto a lui. C'era una torre forte e fedele a guardia del regno. C'era il cavallo che sapeva trovare strade inattese. E c'erano le pedine, piccole solo in apparenza. Sissa fece capire che in quel gioco nessuno era inutile. Anche il pezzo piu semplice aveva un compito importante. Il re cominciò a osservare con occhi nuovi quella piccola meraviglia.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 4 - Il re comprende</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <rect x="110" y="98" width="580" height="190" rx="10" class="soft"/>
+          <circle cx="212" cy="236" r="14" class="line"/>
+          <circle cx="286" cy="210" r="14" class="line"/>
+          <circle cx="360" cy="186" r="14" class="line"/>
+          <path d="M470 140 C488 110 516 110 534 140 L534 230 L470 230 Z" class="line"/>
+          <path d="M580 170 L620 170 L620 145 L645 145 L645 170 L685 170 L685 238 L580 238 Z" class="line"/>
+          <path d="M152 110 C164 98 192 98 204 110" class="line"/>
+          <path d="M226 84 C238 72 266 72 278 84" class="line"/>
+          <path d="M300 60 C312 48 340 48 352 60" class="line"/>
+          <circle cx="120" cy="160" r="20" class="line"/>
+          <path d="M104 180 L136 180 L145 250 L95 250 Z" class="line"/>
+          <path d="M102 145 L120 118 L138 145" class="line"/>
+          <path d="M90 298 C230 288 470 288 710 298" class="ground"/>
+        </svg>
+        <div class="caption">Le pedine avanzano e il re inizia a vedere il valore di tutti</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> le pedine avanzano di un passo. Il messaggero-cavallo compie un salto simbolico. I due consiglieri-alfiere si spostano con precisione. La guardiana-torre difende il lato del re. Il re resta protetto al centro.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Mentre la partita prendeva vita, il re capì qualcosa di prezioso. Vide che i piu piccoli potevano aprire la strada. Vide che i piu forti non bastavano da soli. Vide che ogni ruolo aveva dignita e che il successo dipendeva dall'equilibrio di tutti. Nessun pezzo doveva essere deriso. Nessun aiuto doveva essere dimenticato. Perfino la piccola pedina, se avanzava con coraggio e costanza, poteva arrivare lontano. Il cuore del re, che da tanto tempo era triste, cominciò finalmente a schiarirsi.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 5 - La richiesta di Sissa</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <path d="M95 290 C240 278 420 282 710 290" class="ground"/>
+          <circle cx="170" cy="148" r="20" class="line"/>
+          <path d="M154 168 L186 168 L194 242 L146 242 Z" class="line"/>
+          <path d="M152 133 L170 106 L188 133" class="line"/>
+          <circle cx="365" cy="165" r="16" class="line"/>
+          <path d="M352 181 L378 181 L386 240 L344 240 Z" class="line"/>
+          <circle cx="365" cy="138" r="13" class="line"/>
+          <rect x="475" y="182" width="180" height="74" rx="8" class="soft"/>
+          <g class="line">
+            <path d="M505 202 H625"/>
+            <path d="M505 222 H625"/>
+            <path d="M505 242 H625"/>
+            <path d="M505 202 V242"/>
+            <path d="M545 202 V242"/>
+            <path d="M585 202 V242"/>
+            <path d="M625 202 V242"/>
+          </g>
+          <circle cx="438" cy="224" r="6" class="ink"/>
+          <circle cx="448" cy="213" r="6" class="ink"/>
+          <circle cx="460" cy="228" r="6" class="ink"/>
+        </svg>
+        <div class="caption">Sissa indica una richiesta piccola solo in apparenza</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> il Re si alza e apre le braccia verso Sissa. Sissa indica la scacchiera. Il popolo osserva da lontano. I consiglieri si scambiano uno sguardo curioso.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Il re era colmo di riconoscenza. Disse a Sissa che un dono cosi grande meritava un premio immenso. Avrebbe potuto chiederle oro, stoffe, gioielli e perfino terre. Ma Sissa, con la sua calma gentile, chiese soltanto questo: un chicco di riso per la prima casella della scacchiera, due per la seconda, quattro per la terza, e poi sempre il doppio fino all'ultima casella. La corte rimase stupita. Una richiesta tanto piccola sembrava quasi impossibile da prendere sul serio. Il re sorrise, convinto che esaudire quel desiderio sarebbe stato facilissimo.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 6 - La sorpresa del palazzo</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <path d="M90 292 C210 282 450 282 710 292" class="ground"/>
+          <circle cx="160" cy="165" r="18" class="line"/>
+          <path d="M146 182 L174 182 L182 240 L138 240 Z" class="line"/>
+          <path d="M142 150 L160 122 L178 150" class="line"/>
+          <circle cx="300" cy="185" r="12" class="line"/>
+          <path d="M292 197 L308 197 L313 235 L287 235 Z" class="line"/>
+          <circle cx="340" cy="176" r="12" class="line"/>
+          <path d="M332 188 L348 188 L353 235 L327 235 Z" class="line"/>
+          <circle cx="380" cy="168" r="12" class="line"/>
+          <path d="M372 180 L388 180 L393 235 L367 235 Z" class="line"/>
+          <circle cx="520" cy="230" r="8" class="ink"/>
+          <circle cx="540" cy="220" r="10" class="ink"/>
+          <circle cx="565" cy="236" r="12" class="ink"/>
+          <circle cx="595" cy="222" r="14" class="ink"/>
+          <circle cx="630" cy="240" r="16" class="ink"/>
+          <circle cx="670" cy="228" r="18" class="ink"/>
+        </svg>
+        <div class="caption">I chicchi crescono e la corte capisce che la piccola richiesta era enorme</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> alcuni bambini portano avanti piccole manciate simboliche di riso. A ogni passaggio i gesti diventano piu ampi. Il Re passa dalla leggerezza allo stupore. I consiglieri mostrano incredulita.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Ma ben presto a palazzo tutti capirono che non si trattava affatto di poco. Casella dopo casella, i chicchi crescevano in modo sorprendente. Quello che all'inizio sembrava minuscolo diventava sempre piu grande, fino a superare ogni immaginazione. Il re comprese allora che Sissa non voleva umiliarlo. Voleva insegnargli un'ultima verita. Le cose piccole non vanno mai disprezzate. Un gesto, un pensiero, una scelta, se crescono nel tempo, possono diventare immensi. Il sovrano restò in silenzio, colpito dalla saggezza di quella bambina dal cappello di pedone.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 7 - La scelta del re</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <path d="M90 292 C210 282 450 282 710 292" class="ground"/>
+          <circle cx="200" cy="148" r="20" class="line"/>
+          <path d="M184 168 L216 168 L224 242 L176 242 Z" class="line"/>
+          <path d="M182 133 L200 106 L218 133" class="line"/>
+          <circle cx="390" cy="164" r="16" class="line"/>
+          <path d="M378 180 L402 180 L410 240 L370 240 Z" class="line"/>
+          <circle cx="390" cy="138" r="13" class="line"/>
+          <path d="M235 182 C275 176 315 171 355 168" class="line"/>
+          <circle cx="560" cy="160" r="14" class="line"/>
+          <path d="M550 174 L570 174 L577 230 L543 230 Z" class="line"/>
+          <circle cx="610" cy="156" r="14" class="line"/>
+          <path d="M600 170 L620 170 L627 230 L593 230 Z" class="line"/>
+          <circle cx="660" cy="162" r="14" class="line"/>
+          <path d="M650 176 L670 176 L677 230 L643 230 Z" class="line"/>
+        </svg>
+        <div class="caption">Il re riconosce in Sissa la vera erede del regno</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> il Re scende dal suo posto e si avvicina a Sissa. I due consiglieri-alfiere e la guardiana-torre fanno un passo indietro con gesto solenne. La corte si apre in due file lasciando libero il centro.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> In quel momento il re capì di avere davanti non una semplice bambina, ma la persona piu saggia del suo regno. Aveva portato un gioco capace di insegnare la collaborazione. Aveva mostrato il valore di ogni ruolo. Aveva insegnato che il piu piccolo puo diventare decisivo. E aveva fatto tutto con umilta, intelligenza e cuore. Allora il re prese una decisione inattesa. Disse davanti a tutti che la sua vera erede sarebbe stata Sissa. Le avrebbe affidato il suo patrimonio, la sua fiducia e il futuro del regno. La corte rimase immobile, sorpresa da una scelta cosi grande.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Scena 8 - Da pedone a regina</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <path d="M90 292 C210 282 450 282 710 292" class="ground"/>
+          <circle cx="230" cy="150" r="20" class="line"/>
+          <path d="M214 170 L246 170 L254 244 L206 244 Z" class="line"/>
+          <path d="M212 135 L230 108 L248 135" class="line"/>
+          <circle cx="400" cy="165" r="16" class="line"/>
+          <path d="M388 181 L412 181 L420 240 L380 240 Z" class="line"/>
+          <circle cx="400" cy="138" r="13" class="line"/>
+          <path d="M455 115 C470 92 490 80 510 80 C530 80 550 92 565 115" class="line"/>
+          <path d="M470 115 L550 115 L550 145 L470 145 Z" class="line"/>
+          <path d="M255 155 C290 135 325 122 360 122" class="line"/>
+          <path d="M425 146 C447 141 465 132 485 118" class="line"/>
+          <circle cx="620" cy="170" r="14" class="line"/>
+          <path d="M610 184 L630 184 L636 236 L604 236 Z" class="line"/>
+          <circle cx="665" cy="170" r="14" class="line"/>
+          <path d="M655 184 L675 184 L681 236 L649 236 Z" class="line"/>
+        </svg>
+        <div class="caption">Il cappello da pedone lascia il posto a quello da regina</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti dei bambini:</span> il Re toglie con delicatezza a Sissa il cappello da pedone. Poi le mette sul capo il cappello da regina. Tutti i bambini si dispongono intorno in semicerchio e restano fermi nella posa finale.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Testo del narratore:</span> Davanti agli occhi di tutti, il re si avvicinò a Sissa. Con un gesto lento e solenne le tolse il cappello da pedone, quello del pezzo piu piccolo. Poi le posò sul capo il cappello da regina, il pezzo piu potente della scacchiera. Fu allora che il palazzo comprese fino in fondo la morale di quella storia. Non conta da dove si parte. Conta la saggezza con cui si cresce. Conta il bene che si sa portare agli altri. Conta il coraggio di usare l'intelligenza per costruire, non per dominare. Cosi Sissa, da piccola pedina, divenne regina del regno e del suo futuro.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2>Finale e saluti</h2>
+    <div class="illustration">
+      <div class="vignette">
+        <svg viewBox="0 0 800 360" aria-hidden="true">
+          <path d="M90 292 C210 282 450 282 710 292" class="ground"/>
+          <circle cx="400" cy="136" r="20" class="line"/>
+          <path d="M384 156 L416 156 L425 245 L375 245 Z" class="line"/>
+          <path d="M380 118 L400 86 L420 118" class="line"/>
+          <path d="M400 86 L400 70" class="line"/>
+          <circle cx="235" cy="168" r="14" class="line"/>
+          <path d="M225 182 L245 182 L252 236 L218 236 Z" class="line"/>
+          <circle cx="285" cy="175" r="14" class="line"/>
+          <path d="M275 189 L295 189 L302 236 L268 236 Z" class="line"/>
+          <circle cx="515" cy="168" r="14" class="line"/>
+          <path d="M505 182 L525 182 L532 236 L498 236 Z" class="line"/>
+          <circle cx="565" cy="175" r="14" class="line"/>
+          <path d="M555 189 L575 189 L582 236 L548 236 Z" class="line"/>
+          <circle cx="615" cy="168" r="14" class="line"/>
+          <path d="M605 182 L625 182 L632 236 L598 236 Z" class="line"/>
+        </svg>
+        <div class="caption">Posa finale: Sissa regina al centro, circondata da tutti i pezzi</div>
+      </div>
+    </div>
+    <div class="box">
+      <p><span class="label">Movimenti finali:</span> dopo l'ultima frase del narratore, tutti restano immobili per tre secondi. Poi fanno un inchino insieme. Se serve, il narratore puo richiamare prima Sissa-regina, poi il Re, poi la corte e infine le pedine.</p>
+    </div>
+    <div class="box">
+      <p><span class="label">Ultima frase del narratore:</span> E da quel giorno tutti ricordarono che anche una piccola pedina, se guidata da saggezza e bonta, puo diventare regina.</p>
+    </div>
+    <div class="box small">
+      <p><span class="label">Tempo indicativo:</span> circa 1 minuto per copertina e presentazione, 13 minuti per le otto scene, 1 minuto finale per posa e saluti.</p>
+    </div>
+  </section>
+</body>
+</html>
