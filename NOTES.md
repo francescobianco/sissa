@@ -60,8 +60,15 @@ Preparare una piccola rappresentazione scolastica della leggenda di Sissa:
 
 Il copione completo e nel file:
 
+- [leggenda_di_sissa_reference.md](/home/francesco/Develop/_/sissa/leggenda_di_sissa_reference.md)
 - [leggenda_di_sissa_copione.html](/home/francesco/Develop/_/sissa/leggenda_di_sissa_copione.html)
 - [leggenda_di_sissa_copione.pdf](/home/francesco/Develop/_/sissa/leggenda_di_sissa_copione.pdf)
+
+Regola di lavoro:
+
+- `leggenda_di_sissa_reference.md` e la reference principale.
+- Le prossime modifiche di testo vanno fatte li.
+- `HTML` e `PDF` vanno considerati derivati da rigenerare a partire dal file Markdown.
 
 Struttura:
 
